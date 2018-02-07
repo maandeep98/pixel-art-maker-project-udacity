@@ -10,6 +10,7 @@ $(function() {
     //select canvas
     const table = $('#pixelCanvas');
 
+    // grid generation based on user input
     function makeGrid() {
         table.find('tbody').remove();
 
